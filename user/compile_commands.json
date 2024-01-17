@@ -1,0 +1,8 @@
+[
+    {
+        "command": "/home/zbw/software/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/zbw/software/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O2 -DNDEBUG -I/home/zbw/software/android-ndk-r20b/sources/cxx-stl/llvm-libc++/include -I/home/zbw/software/android-ndk-r20b/sources/cxx-stl/llvm-libc++abi/include -Ijni -std=c++11 -DANDROID -fPIE -fvisibility=hidden -nostdinc++ -Wa,--noexecstack -Wformat -Werror=format-security -std=c++1y -c jni/../main.cpp -o ./obj/local/arm64-v8a/objs/test_kernel_hack/__/main.o",
+        "directory": "/home/zbw/Desktop/google_kernel/common/drivers/Kernel_driver_hack/user",
+        "file": "jni/../main.cpp",
+        "output": "./obj/local/arm64-v8a/objs/test_kernel_hack/__/main.o"
+    }
+]
